@@ -10,15 +10,16 @@
     justify-content: space-around;
     flex: 1;
 
-    span{
-        cursor: pointer;
+    span {
+      cursor: pointer;
+      transition: all 0.5s ease;
 
-        &:hover{
-          background-color: rgba(255, 119, 78, 0.20);
-          width: fit-content;
-          height: fit-content;
-          border-radius: 10px;
-        }
+      &:hover {
+        background-color: rgba(255, 119, 78, 0.2);
+        width: fit-content;
+        height: fit-content;
+        border-radius: 10px;
+      }
     }
   }
 
@@ -44,6 +45,13 @@
       font-family: "Montserrat", sans-serif;
       font-weight: 500;
       cursor: pointer;
+      transition: all 0.5s ease;
+
+      &:hover {
+        color: white;
+        background-color: #ff774e;
+        border: solid 1px white;
+      }
     }
   }
 }
